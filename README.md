@@ -1,64 +1,50 @@
-# Student Registration System
+**Project Title **
 
-A web-based student registration system built with **Laravel 11** and **Tailwind CSS**.
+------
 
-## Features
+Introduction
 
-- Register students with full personal and academic details
-- Upload and display student profile pictures
-- View a list of all registered students
-- View individual student profiles
-- Form validation with user-friendly error messages
-- Flash messages for successful actions
-- Pastel purple professional UI
+-----
 
-## Requirements
+Objectives
 
-- PHP 8.2+
-- Composer
-- SQLite (default) or any supported database
+----
 
-## Installation
+Laravel Request Lifecycle
 
-```bash
-git clone <repo-url>
-cd student-registration
-composer install
-cp .env.example .env
-php artisan key:generate
-php artisan migrate
-php artisan storage:link
-php artisan serve
-```
+------
 
-Then visit `http://127.0.0.1:8000` in your browser.
+Validation Rules
 
-## Project Structure
+------
 
-```
-app/
-  Http/Controllers/StudentController.php   # Handles registration, listing, showing
-  Models/Student.php                        # Student model with fillable fields & casts
-database/
-  migrations/
-    ..._create_students_table.php           # Students table schema
-resources/
-  views/
-    layouts/app.blade.php                   # Base layout with nav and flash messages
-    students/
-      create.blade.php                      # Registration form
-      index.blade.php                       # Student list
-      show.blade.php                        # Student profile
-routes/
-  web.php                                   # Application routes
-```
+ Database Design
 
-## Routes
+ ------
 
-| Method | URI                  | Action               |
-|--------|----------------------|----------------------|
-| GET    | /                    | Redirect to students |
-| GET    | /students            | List all students    |
-| GET    | /students/create     | Show register form   |
-| POST   | /students            | Store new student    |
-| GET    | /students/{student}  | Show student profile |
+ Flowchart
+
+ -------
+
+Screenshots
+
+------
+
+Problems Encountered
+
+-----
+
+Solutions
+
+-----
+
+ Reflection 
+
+
+ ----
+
+ References
+
+
+
+ 
