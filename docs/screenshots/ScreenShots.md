@@ -54,6 +54,13 @@ Student Profile Page
 
 VS Code Project Structure
 
+<img width="395" height="857" alt="image" src="https://github.com/user-attachments/assets/d261ae59-dd9c-4557-9b42-6866e7b4c851" />
+
+GitHub Repository 
+
+<img width="1860" height="886" alt="image" src="https://github.com/user-attachments/assets/3bbf8d1a-14b7-4ddf-a1e7-21118e0475ed" />
+
+
 
 
 GitHub Repository
