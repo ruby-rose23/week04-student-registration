@@ -60,4 +60,12 @@ GitHub Repository
 
 <img width="1860" height="886" alt="image" src="https://github.com/user-attachments/assets/3bbf8d1a-14b7-4ddf-a1e7-21118e0475ed" />
 
+Terminal Output 
+
+<img width="900" height="740" alt="image" src="https://github.com/user-attachments/assets/cc7946a4-0472-4ff4-8155-5377f762f1d4" />
+
+Browser Output
+
+<img width="1896" height="893" alt="image" src="https://github.com/user-attachments/assets/d239d0db-6bb3-419d-8adb-68f0f9f60dad" />
+
 
