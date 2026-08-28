@@ -37,6 +37,9 @@ Database – A new row goes into the students table.
 
 Response – The page goes to the student profile and shows "Student registered successfully!"
 
+<img width="606" height="836" alt="image" src="https://github.com/user-attachments/assets/def93b74-f6f4-4224-8e9b-5f1404cbf454" />
+
+
 ------
 
 Validation Rules
