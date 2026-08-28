@@ -6,7 +6,7 @@ ______
 
 Database Design
 
- <img width="420" height="728" alt="image" src="https://github.com/user-attachments/assets/839b7e7e-bd70-494b-9ddf-5525eb339231" />
+ <img width="521" height="743" alt="image" src="https://github.com/user-attachments/assets/d5c0a1be-1dad-4654-a6d5-c53a83c77944" />
 
 
  ______
