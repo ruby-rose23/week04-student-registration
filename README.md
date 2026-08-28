@@ -72,7 +72,10 @@ The Profile Picture also have max:2048, which mean the file is not allowed to be
 
 ------
 
- Database Design
+Database Design
+
+ <img width="420" height="728" alt="image" src="https://github.com/user-attachments/assets/839b7e7e-bd70-494b-9ddf-5525eb339231" />
+
 
 Primary Key 
 
