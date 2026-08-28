@@ -74,7 +74,7 @@ The Profile Picture also have max:2048, which mean the file is not allowed to be
 
 Database Design
 
- <img width="420" height="728" alt="image" src="https://github.com/user-attachments/assets/839b7e7e-bd70-494b-9ddf-5525eb339231" />
+ <img width="521" height="743" alt="image" src="https://github.com/user-attachments/assets/d5c0a1be-1dad-4654-a6d5-c53a83c77944" />
 
  <img width="1403" height="903" alt="image" src="https://github.com/user-attachments/assets/02d0fbc7-ac68-42ce-a9ab-f3bbf5d582ed" />
 
@@ -167,7 +167,8 @@ GitHub Repository
 Problems Encountered
 
 Validation errors did not show on the form. The error messages did not show even when I submitted an empty form.
-The uploaded profile picture did not show. After a student was saved, the picture path in the database did not match the real file location, so the image did not show on the profile page. 
+The uploaded profile picture did not show. After a student was saved, the picture path in the database did not match the real file location, so the image did not show on the profile page. Migration failed because of a duplicate table. When I ran php artisan serve the first time it gave me an error saying that the students table are already exists. I checked the migration folder and saw there were two migration files for creating the students table and Laravel got confused on which one to run.
+
 
 
 -----
@@ -177,6 +178,9 @@ Solutions
 Validation errors didn't show cause there is a missing code in the blade file. Only validation rules were in the controller, during form submission, no errors showed. By adding an @if ($errors->any()) block to the view, error messages finally appeared, highlighting the need for proper display in validation.
 
 The uploaded profile picture didn't display even it says successful registration. The image file path was correctly saved, but the file was in a hidden storage folder. The issue was resolved by creating a symbolic link between storage and public directories using `php artisan storage:link`, allowing the browser to access the image securely.
+
+Fixed the duplicate migration. I remove the extra migration file and only one create students table file was left. Then I ran php artisan serve again to refresh the database and run the migrations again. Now the students table was created properly with no problem.
+
 
 -----
 
