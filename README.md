@@ -76,6 +76,7 @@ Database Design
 
  <img width="420" height="728" alt="image" src="https://github.com/user-attachments/assets/839b7e7e-bd70-494b-9ddf-5525eb339231" />
 
+ <img width="1403" height="903" alt="image" src="https://github.com/user-attachments/assets/02d0fbc7-ac68-42ce-a9ab-f3bbf5d582ed" />
 
 Primary Key 
 
